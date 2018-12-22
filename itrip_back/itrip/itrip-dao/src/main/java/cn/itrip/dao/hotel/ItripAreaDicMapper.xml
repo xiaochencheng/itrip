@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itrip.dao.hotel.ItripAreaDicMapper">
+
+    <select id="getItripAreaDic" resultType="cn.itrip.beans.pojo.ItripAreaDic" >
+        select
+                id as id,
+                name as name,
+                areaNo as areaNo,
+                parent as parent,
+                isActivated as isActivated,
+                isTradingArea as isTradingArea,
+                isHot as isHot,
+                level as level,
+                isChina as isChina,
+                pinyin as pinyin,
+                creationDate as creationDate,
+                createdBy as createdBy,
+                modifyDate as modifyDate
+        from itrip_area_dic
+        <trim prefix="where" prefixOverrides="and | or">
+            and isHot=1
+            <if test="isChina!= null and isChina!=''">
+                and isChina=#{isChina}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getItripLabeDic" resultType="cn.itrip.beans.pojo.ItripLabelDic" >
+        select
+            id as id,
+            name as name,
+            value as value,
+            description as description,
+            parentId as parentId,
+            pic as pic,
+            creationDate as creationDate,
+            createdBy as createdBy,
+            modifyDate as modifyDate,
+            modifiedBy as modifiedBy
+        from  itrip_label_dic
+        <trim prefix="where" prefixOverrides="and | or">
+                and parentId=16
+        </trim>
+    </select>
+
+    <select id="getItriAreaDicParent" resultType="cn.itrip.beans.pojo.ItripAreaDic" >
+        select
+        id as id,
+        name as name,
+        areaNo as areaNo,
+        parent as parent,
+        isActivated as isActivated,
+        isTradingArea as isTradingArea,
+        isHot as isHot,
+        level as level,
+        isChina as isChina,
+        pinyin as pinyin,
+        creationDate as creationDate,
+        createdBy as createdBy,
+        modifyDate as modifyDate
+        from itrip_area_dic
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="areaNo= null and areaNo=''">
+                and areaNo=#{areaNo}
+            </if>
+            and parent=2
+        </trim>
+    </select>
+
+    <select id="getItripHotelId" resultType="cn.itrip.beans.pojo.ItripHotel" >
+        select
+        id as id,
+        hotelName as hotelName,
+        countryId as countryId,
+        provinceId as provinceId,
+        cityId as cityId,
+        address as address,
+        details as details,
+        facilities as facilities,
+        hotelPolicy as hotelPolicy,
+        hotelType as hotelType,
+        hotelLevel as hotelLevel,
+        isGroupPurchase as isGroupPurchase,
+        redundantCityName as redundantCityName,
+        redundantProvinceName as redundantProvinceName,
+        redundantCountryName as redundantCountryName,
+        redundantHotelStore as redundantHotelStore,
+        creationDate as creationDate,
+        createdBy as createdBy,
+        modifyDate as modifyDate,
+        modifiedBy as modifiedBy
+        from itrip_hotel where   id=1
+    </select>
+
+    <select id="getItripHote" resultType="String">
+        SELECT NAME FROM itrip_label_dic,itrip_hotel_feature WHERE itrip_label_dic.id IN (itrip_hotel_feature.featureId)
+        AND itrip_hotel_feature.hotelId=#{cityId};
+    </select>
+
+    <select id="getItripHotelTradingArea" resultType="String">
+       SELECT NAME FROM itrip_hotel_trading_area,itrip_area_dic WHERE areaId = itrip_area_dic.id AND hotelId = 1;
+    </select>
+
+    <!--查询酒店描述和特色-->
+    <select id="getHotelDetailGetId" resultType="cn.itrip.beans.pojo.ItripHotel">
+       SELECT details FROM itrip_hotel  WHERE cityId=2 GROUP BY cityId
+    </select>
+    <select id="getHotelDetail" resultType="cn.itrip.beans.pojo.ItripLabelDic" parameterType="cn.itrip.beans.pojo.ItripLabelDic">
+           SELECT NAME,description FROM itrip_label_dic,itrip_hotel_feature WHERE itrip_label_dic.id IN (itrip_hotel_feature.featureId)
+        AND itrip_hotel_feature.hotelId=#{cityId};
+    </select>
+
+    <!--查询酒店设施-->
+    <select id="getHotelTool" resultType="String" >
+        select
+        facilities as facilities
+        from itrip_hotel
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="cityId != null">
+                and id=#{cityId}
+            </if>
+        </trim>
+    </select>
+
+    <select id="queryhotelpolicy" resultType="String" >
+        select
+        hotelPolicy as hotelPolicy
+        from itrip_hotel
+        <trim prefix="where" prefixOverrides="and | or">
+        <if test="cityId != null">
+            and id=#{cityId}
+        </if>
+    </trim>
+    </select>
+
+</mapper>
