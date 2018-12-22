@@ -1,0 +1,13 @@
+.state-message .state-div{
+  margin: 10px 0;
+}
+.state-message .state-line{
+  border-top: 1px dashed #ccc;
+  width:100%;
+  padding: 10px 0
+
+}
+
+.state-message .state-line a{
+  color: #1448ad
+}

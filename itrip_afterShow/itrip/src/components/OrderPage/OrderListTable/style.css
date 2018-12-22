@@ -1,0 +1,18 @@
+.ant-table-wrapper {
+   /* margin-top: 20px;*/
+}
+.orderlisttablecc table {
+    background-color: #fff!important;
+}
+.orderlisttablecc .ant-table-thead > tr > th {
+    background: #f6f6f6;
+}
+.orderlisttablecc .ant-table-wrapper {
+    background: #fff;
+}
+.orderlisttablecc .ant-pagination-prev, 
+.orderlisttablecc .ant-pagination-next, 
+.orderlisttablecc .ant-pagination-jump-prev, 
+.orderlisttablecc .ant-pagination-jump-next {
+    border: 1px solid #ccc;
+}

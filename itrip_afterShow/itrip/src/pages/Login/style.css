@@ -1,0 +1,170 @@
+.LoginHeader{
+  width: 1200px;
+  margin: 0 auto;
+}
+.LoginHeader h1{
+  border-bottom: 1px solid #000;
+}
+.LoginHeader h1 img{
+  width: 200px;
+  margin: -12px 0 0 27px;
+}
+
+.LoginContain{
+  width: 1200px;
+  margin: 0 auto;
+}
+.LoginContain section {
+  width: 696px;
+  height: 570px;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+}
+.LoginContain section .left-phone {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.LoginContain section .left-phone img {
+  width: 249px;
+  height: 321px;
+}
+.LoginContain section .right-message {
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  color: blue;
+  font-size: 24px;
+}
+.LoginContain section .right-message img {
+  width: 75px;
+}
+.LoginContain section .gray {
+  right: 20px;
+  top: 330px;
+  color: #999999;
+  font-size: 14px;
+}
+
+.LoginContain aside {
+  width: 500px;
+  /*height: 640px;*/
+  float: right;
+  margin: 0px;
+  background: #eeeeee;
+}
+.LoginContain aside .login-header {
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 24px;
+  position: relative;
+}
+.LoginContain aside .login-header div {
+  position: absolute;
+  left: 24px;
+  bottom: 1px;
+  font-size: 14px;
+}
+.LoginContain aside .login-header div span {
+  font-size: 24px;
+}
+.LoginContain aside .login-header .right-erweima {
+  position: absolute;
+  right: -24px;
+  top: 0;
+  width: 55px;
+  height: 56px;
+  background: url('./imgs/erweima.png');
+}
+.LoginContain aside .login-header .dian-nao {
+  background: url("./imgs/diannao.png");
+}
+.LoginContain aside .login-body {
+  height: 350px;
+  /*text-align: center;*/
+}
+.LoginContain aside .login-body #actionOption {
+  margin-top: 30px;
+  position: relative;
+}
+.LoginContain aside .login-body .phone-erweima {
+  position: absolute;
+  top: -24px;
+  left: -200px;
+  height: 426px;
+  width: 300px;
+}
+.LoginContain aside .login-body .phone-richScan {
+  position: absolute;
+  top: 14px;
+  left: -131px;
+  height: 112px;
+  width: 127px;
+  display: none;
+}
+.LoginContain aside .login-body form {
+  margin-top: 30px;
+}
+.LoginContain aside .login-body form input[type="text"] {
+  /*height: 45px;*/
+  height: 30px;
+}
+.LoginContain aside .login-body .margin-left-100 {
+  margin-left: 100px;
+}
+.LoginContain aside .login-body .margin-left-89 {
+  margin-left: 86px;
+}
+.LoginContain aside .login-body .margin-left-30 {
+  margin-left: 30px;
+}
+.LoginContain aside .login-body .margin-bt-30 {
+  margin-bottom: 30px;
+}
+.LoginContain aside .login-body .margin-bt-b30 {
+  margin-left: -20px;
+  margin-top: 6px;
+}
+
+.LoginContain aside .login-body #login {
+  width: 300px;
+  margin-left: 20px;
+}
+.LoginContain aside .login-footer {
+  border-top: 1px solid #ccc;
+  height: 130px;
+}
+.LoginContain aside .login-footer .footer-message {
+  color: #333399;
+  font-size: 14px;
+  margin: 20px;
+}
+.LoginContain aside .login-footer .footer-label {
+  margin-left: 80px;
+}
+.LoginContain aside .login-footer .footer-label img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+
+ .login-form {
+  max-width: 300px;
+}
+ .login-form-forgot {
+  float: right;
+}
+ .login-form-button {
+  width: 100%;
+}
+#staticOption{
+  padding-left: 80px;
+}
+#staticOption FormItem{
+  margin-bottom: 10px;
+}
+
+.Login .ant-form-item {
+  margin-bottom: 20px;
+}

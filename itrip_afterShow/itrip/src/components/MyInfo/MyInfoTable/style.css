@@ -1,0 +1,22 @@
+.myinfotablecc {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.myinfotablecc .ant-table-tbody > tr > td {
+  border-bottom: 1px dashed #e9e9e9;
+}
+.myinfosearch {
+  border: 1px solid #ccc;
+  padding: 10px 10px ;
+  color: #666;
+  font-size: 14px;
+  background: #f9f9f9;
+  border-bottom: none;
+}
+.myinfosearch .ant-breadcrumb {
+  margin: 0;
+}
+.myinfosearch .ant-input {
+  width: 20%;
+  margin: 0 10px;
+}

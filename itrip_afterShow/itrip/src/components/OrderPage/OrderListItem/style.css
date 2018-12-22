@@ -1,0 +1,67 @@
+.OrderListItemcc .ant-table {
+    font-size: 14px;
+}
+
+.OrderListItemcc .ant-table-wrapper {
+    background: #fff;
+}
+
+.selectNum,
+.reserveDate,
+.orderState {
+    font-style: normal;
+}
+
+.OrderListItemcc .orderHotelName {
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.OrderListItemcc .ant-table-row td:nth-child(2){
+    /*display: inline-block;*/
+    width: 190px;
+}
+.orderHotelName a {
+    color: rgb(26, 178, 219);
+}
+
+.ordertype {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.orderTotal {
+    color: #f00;
+    font-style: normal;
+}
+
+.orderdesc {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.orderdesc a {
+    color: rgb(26, 178, 219);
+}
+
+.OrderListItemcc .ant-table-thead>tr>th.ant-table-selection-column,
+.OrderListItemcc .ant-table-tbody>tr>td.ant-table-selection-column {
+    min-width: 30px;
+    width: 30px;
+}
+
+.OrderListItemcc .ant-table-tbody>tr>td:nth-child(4) {
+    width: 100px;
+}
+
+.orderoperate a {
+    color: rgb(26, 178, 219);
+}

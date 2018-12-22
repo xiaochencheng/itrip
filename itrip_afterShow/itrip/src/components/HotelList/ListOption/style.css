@@ -1,0 +1,37 @@
+.travel input[type="checkbox"] {
+    margin-top: 0!important;
+}
+
+.radio-inline input[type="radio"],
+.checkbox-inline input[type="checkbox"] {
+    margin: 0;
+}
+
+.tavern-search-params .search-one-param {
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+.tavern-search-params .ant-radio-inner:after {
+    left: 4px;
+    top: 4px;
+}
+
+.tavern-search-params label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.tavern-search-params .search-one-param .checkbox-list {
+    width: 90%;
+}
+
+.search-one-param .checkbox-list .ant-col-3 .ant-checkbox-wrapper > span:last-child {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 92px;
+}
+

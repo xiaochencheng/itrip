@@ -1,0 +1,55 @@
+
+
+.HomeHotel-title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  border-left: 4px solid #1448ad;
+  line-height: 2;
+}
+
+.HomeHotel-title h3 {
+  width: 174px;
+  font-size: 20px;
+  font-family: '微软雅黑';
+  padding-left: 8px;
+  box-sizing: border-box;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.HomeHotel-title ul {
+  margin: 0;
+  flex: 1;
+}
+
+.HomeHotel-more {
+  align-self: flex-end;
+  font-size: 12px;
+}
+
+.hotelCls {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.hotelCls li {
+  padding: 0 .8em;
+  cursor: pointer;
+}
+
+.hotelClsOn {
+  background: #003399;
+  color: #ffffff;
+  border-radius: 3px 3px 0 0;
+}
+
+.HomeHotel-hotelList {
+  padding-top: 20px;
+  display: flex;
+}
+
+.HomeHotel-left {
+  /* margin-right: 10px; */
+}

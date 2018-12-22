@@ -1,0 +1,26 @@
+.HomeRecommend .tab-content {
+  padding-top: 20px;
+}
+
+
+#myAccordion li {
+  width: 166px;
+  transition: all .3s;
+}
+
+#myAccordion .hoverItem {
+  width: 400px;
+  opacity: 1;
+}
+
+#myAccordion .hoverOtheritem {
+  width: 120px;
+  opacity: 0.3;
+}
+
+#myAccordion .itemBg1 {background: url('./img/travel-accordion-1.jpg') 0 0 no-repeat;}
+#myAccordion .itemBg2 {background: url('./img/travel-accordion-2.jpg') 0 0 no-repeat;}
+#myAccordion .itemBg3 {background: url('./img/travel-accordion-3.jpg') 0 0 no-repeat;}
+#myAccordion .itemBg4 {background: url('./img/travel-accordion-4.jpg') 0 0 no-repeat;}
+#myAccordion .itemBg5 {background: url('./img/travel-accordion-5.jpg') 0 0 no-repeat;}
+#myAccordion .itemBg6 {background: url('./img/travel-accordion-6.jpg') 0 0 no-repeat;}

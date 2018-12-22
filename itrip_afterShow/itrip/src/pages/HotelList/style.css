@@ -1,0 +1,14 @@
+.itemParent , .HotelList {
+	width: 1175px;
+	margin: 0 auto;
+}
+.travel {
+	width: 1175px!important;
+}
+.travel-body {
+    margin: 0!important;
+}
+.paginationWrapper {
+	text-align: right;
+	margin-bottom: 20px;
+}

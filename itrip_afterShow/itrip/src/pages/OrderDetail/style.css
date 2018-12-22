@@ -1,0 +1,11 @@
+.orderdetail {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 27px 0 28px;
+    box-sizing: border-box;
+}
+.orderdetail h3 {
+    color: #333;
+    font-size: 14px;
+    line-height: 50px;
+}

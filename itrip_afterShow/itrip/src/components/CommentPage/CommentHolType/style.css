@@ -1,0 +1,16 @@
+.Commenthoteltype {
+  text-align: left;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+}
+.Commenthoteltype .ant-input-group {
+  display: inline-block;
+  width: 80%;
+}
+.Commenthoteltype .ant-select {
+  width: 220px;
+}
+.Commenthoteltype .ant-select-dropdown {
+  font-family: "微软雅黑";
+}

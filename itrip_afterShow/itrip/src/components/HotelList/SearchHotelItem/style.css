@@ -1,0 +1,13 @@
+.SearchTitle {
+	padding: 10px 0;
+    background: #eeeeee;
+}
+.common-bar {
+	text-align: left;
+}
+.SearchTitle .ant-form-item {
+	margin-bottom: 0;
+}
+.SearchTitle .ant-cascader-picker .ant-input-sm {
+	padding: 2px 0;
+}

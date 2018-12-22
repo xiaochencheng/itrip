@@ -1,0 +1,15 @@
+.orderdetailtabcc .ant-anchor-wrapper {
+    background-color: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+}
+.orderdetailtabcc .ant-anchor-link {
+  float: left;
+}
+.orderdetailtabcc .ant-anchor-link-title {
+  font-size: 18px;
+  font-family: "微软雅黑";
+}

@@ -1,0 +1,117 @@
+.orderdetailintoroom .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content {
+    background: #fff;
+}
+.detailTile {
+    border-top: 2px solid #1ab2db;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: '微软雅黑';
+    background-color: #f2fcff;
+    text-indent: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.intoHotelName {
+    color: #1448ad;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: '微软雅黑';
+    margin: 0 0 20px 35px;
+}
+.intoMap {
+    display: inline-block;
+    font-size: 14px;
+    color: #252525;
+    margin: 0 0 20px 35px;
+}
+.intoMap a {
+    margin-left: 10px;
+    color: #1448ad; 
+}
+.roomType {
+    font-style: normal;
+    font-family: '微软雅黑';
+    font-size: 18px;
+    color: #333;
+}
+/*入离日期*/
+.roomDate, .roomNum {
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.roomDate {
+    position: relative;
+    padding: 2px 45px 5px 5px;
+}
+.dateD{
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.bigNum {
+    font-size: 30px;
+    font-family: tahoma;
+    line-height: 1.2;
+    color: #333;
+}
+.dateYearMon, .dateWon{
+    display: block;
+    padding: 4px;
+}
+.dateWon{
+    color: #999;
+}
+.connect {
+    margin: 0 10px;
+}
+.totalTime {
+    font-style: normal;
+    color: red;
+}
+
+
+.orderDetailname {
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 20px;
+    color: #999;
+    font-size: 14px;
+}
+.inOutDay {
+    height: 60px;
+    line-height: 60px;
+}
+.detailPrice {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    margin: 20px 10px 10px 0;
+}
+.detailPrice strong {
+    font-size: 34px;
+    color: #ff4401;
+}
+.detailTip {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    text-align: right;
+}
+.detailButton {
+    text-align: center
+}
+.detailButton p {
+    margin-left: -35px;
+     font-size: 14px;
+}
+.detailButton Button {
+    margin-bottom: 10px;
+    font-size: 14px;
+}

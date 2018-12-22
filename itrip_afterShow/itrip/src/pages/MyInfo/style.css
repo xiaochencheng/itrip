@@ -1,0 +1,30 @@
+.order {
+    width: 1200px;
+    margin: 0 auto;
+}
+.orderpagelayout .ant-layout {
+    background: #fff;
+    resize: 14px;
+    color: #666;
+}
+.orderpagelayout .ant-menu-inline .ant-menu-submenu-title ,
+.orderpagelayout .ant-menu-inline .ant-menu-item {
+    font-size: 14px;
+}
+.order-title {
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.order-tip {
+    font-style: normal;
+}
+
+.myinfocc .ant-layout-content {
+    min-height: 400px!important;
+}
+.myinfocc .ant-tabs {
+    overflow: inherit;
+}

@@ -1,0 +1,8 @@
+.HotelCardList{
+  overflow: hidden;
+}
+
+.HotelCardList-item {
+  float: left;
+  margin: 0 0 10px 10px;
+}

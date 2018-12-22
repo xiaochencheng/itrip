@@ -1,0 +1,15 @@
+.i-nav .i-nav-login .welcome {
+    float: left;
+    width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+.i-nav .i-nav-login span,.i-nav .i-nav-login a {
+  float: left;
+}
+.i-nav .i-nav-login .linerow {
+  margin: 0 6px;
+}

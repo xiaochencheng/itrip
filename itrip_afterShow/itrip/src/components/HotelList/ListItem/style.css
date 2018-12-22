@@ -1,0 +1,18 @@
+.model-grid-label i {
+    margin: 0 3px;
+}
+.model-grid-label span {
+    margin: 0 4px;
+}
+.model-grid-message i {
+    margin: 0 4px;
+}
+.tavern-model-grid:last-child {
+  border-bottom: none;
+}
+.featureBox {
+  font-style: normal;
+}
+.citytip {
+    font-size: 16px;
+}

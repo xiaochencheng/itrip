@@ -1,0 +1,35 @@
+.commentcontent textarea.ant-input {
+    box-sizing: border-box;
+    border: 2px solid #d9d9d9;
+    font-size: 14px;
+  }
+.commentcontipleft, .commentcontipright {
+    float: left;
+    margin-top: 10px;
+    text-align: left;
+  }
+.commentcontipleft {
+  width: 470px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #9f9e9e
+}
+.commentgift {
+  border: 1px solid #f00;
+  background: #fdf2ee;
+  font-style: normal;
+  color: #333;
+  font-size: 16px;
+  padding: 4px;
+  font-family: "微软雅黑";
+}
+.commentgift i , .commentgift a {
+  color: #f00;
+}
+.commentcontipright span {
+  font-size: 18px;
+  color: #00a0e9;
+  font-family: "微软雅黑";
+  margin-left: 20px;
+}
+

@@ -1,0 +1,13 @@
+.card-container .ant-tabs-bar {
+    margin-bottom: 0;
+}
+.card-container .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content {
+    /*border: 1px solid #ccc;
+    border-top: none;*/
+    box-sizing: border-box;
+    background: #d9d9d9;
+}
+.card-container .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    padding-left: 30px;
+    padding-right: 30px;
+}

@@ -1,0 +1,13 @@
+.payTabs .ant-tabs { 
+    background: #ffffff;
+}
+.payTabs .ant-tabs-nav-scroll { 
+    background: #f2fcff;
+}
+.payTabs .ant-tabs-tabpane.ant-tabs-tabpane-active{
+  background: #ffffff;
+}
+.payTabs .payType{
+    padding: 20px;
+    margin-left: 30px
+}

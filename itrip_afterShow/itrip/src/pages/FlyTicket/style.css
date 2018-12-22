@@ -1,0 +1,234 @@
+.FlyTicket{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.FlyCont1{
+  position: relative;
+  margin-bottom: 20px;
+}
+.banner img{
+ width: 100%;
+}
+
+.flyCarousel{
+  width: 1200px;
+  height: 470px;
+}
+
+
+/* 机票折线图开始 */
+/*section {
+	display: block;
+	width: 1145px;
+	margin: 20px auto;
+}*/
+.i-brokenline {
+	height: 50px;
+	margin-bottom: 20px;
+}
+.i-brokenline i {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	border-radius: 8px;
+	background: #f75232 url(./imgs/flyTicket_xxx1202_03.png) center center no-repeat;
+}
+.i-brokenline-wrap {
+	float: left;
+	width: 420px;
+	height: 50px;
+}
+.i-brokenline-wrap h3 {
+	font-size: 22px;
+	margin-left: 3px;
+	font-family: "microsoft yahei";
+	color: #333;
+}
+.i-brokenline-wrap span {
+	display: inline-block;
+	width: 218px;
+	height: 24px;
+	background: url(./imgs/flyword_xxx1202_06.png) left top no-repeat;
+}
+.i-brokenlinesearch {
+	float: right;
+	line-height: 50px;
+	font-size: 14px;
+
+}
+.i-brokenlinesearch input {
+	width: 118px;
+	height: 25px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	color: #333;
+}
+.i-brokenlinesearch button {
+	width: 55px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #1ab2db;
+	color: #fff;
+	border: none;
+}
+.flodline {
+	width: 900px;
+	height: 500px;
+	margin: 0 auto;
+}
+/* 机票折线图结束 */
+
+
+/* 航空公司促销开始 */
+.promotion{
+  margin-bottom: 30px;
+}
+.i-fly-sale i{
+	background: #96ea3c url(./imgs/flyTicket_xxx1202_07.png) center center no-repeat;
+}
+.i-fly-sale span{
+	width: 318px;
+	background: url(./imgs/flyword_xxx1202_07.png) center center no-repeat;
+}
+.i-fly-salemore{
+	float: right;
+	font-size: 14px;
+	margin-top: 15px;
+	color: #666;
+}
+.i-fly-salepro {
+	padding-top: 5px;
+	
+}
+.i-fly-salepro li {
+	float: left;
+	margin-right: 7px;
+}
+.i-fly-salepro li.flylastli {
+	margin-right: 0;
+}
+.promotion img{
+  transition: all 1s;
+}
+.promotion img:hover{
+  transform: translate(-2px,-10px);
+}
+/* 航空公司促销结束 */
+
+
+/* 特价机票汇总开始 */
+.flyPreferential{
+  margin-bottom: 30px;
+}
+.i-fly-sale-sum i{
+	background: #f7e624 url(./imgs/flyTicket_xxx1202_09.png) center center no-repeat;
+}
+.i-fly-sale-sum span{
+	width: 200px;
+	background: url(./imgs/flyword_xxx1202_24.png) center center no-repeat;
+}
+.i-fly-sale-sum .i-brokenline-wrap {
+	width: 280px;
+}
+.i-brokenline-wrap-right {
+	float: right;
+	width: 800px;
+	margin-top: 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.i-brokenline-wrap-right div {
+	float: left;
+	margin-left: 15px;
+}
+.i-brokenline-wrap-right select {
+	width: 86px;
+	border: 1px solid #ccc;
+	height: 30px;
+	color: #666;
+
+}
+.i-brokenline-wrap-right select option {
+	height: 22px;
+}
+.i-fly-sum-hot a {
+	padding: 4px 5px;
+}
+.i-fly-sum-hot a:hover {
+	background-color: #ffc466;
+	border-radius: 3px;
+	color: #fff;
+}
+.i-brokenline-wrap-right .i-fly-salemore {
+	margin-top: 0;
+}
+
+.i-fly-sale-detail {
+border-top: 1px solid #e9e9e9; 
+border-bottom: 1px solid #e9e9e9; 
+background-color: #f8f8f8;
+width: 1145px;
+margin: 0 auto;
+overflow: hidden;
+}
+.i-fly-sale-detail ul {
+	float: left;
+	padding: 10px;
+	width: 360px;
+	border-right: 1px dotted #e9e9e9;
+}
+.i-fly-sale-detail ul:last-child {
+	border-right: none;
+}	
+
+.i-fly-sale-detail ul li a{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+.i-fly-sale-detail ul li a:hover {
+	color: #1ab2db;
+}
+
+.i-fly-sale-detail .city {
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	float: left;
+	width: 150px;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.i-fly-sale-detail .city i {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+	width: 20px;
+	height: 20px;
+	background: url(./imgs/fly_sale_sum_xxx1203_02.png) center center no-repeat;
+}
+.i-fly-sale-detail .data {
+	float: left;
+	margin: 0 10px 0 10px;
+	font-size: 14px;
+}
+.i-fly-sale-detail .sale {
+	float: left;
+	font-size: 14px;
+	margin-right: 5px;
+	width: 50px;
+}
+.i-fly-sale-detail .price {
+	float: left;
+	color: #ff4401;
+	font-size: 20px;
+	margin-left: 5px;
+	font-family: "microsoft yahei";
+}
+
+/* 特价机票汇总结束 */

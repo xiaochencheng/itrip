@@ -1,0 +1,62 @@
+ .headerMessage{
+   background:#f2fcff;
+   padding: 10px;
+   margin-bottom: 20px
+   }
+ .headerMessage li{
+   padding: 5px 10px;
+    font-size: 18px; 
+    
+ }
+ 
+ .headerMessage li span{
+   padding: 0px 10px;
+ }
+ .headerMessage li:nth-child(1){
+   color: #1ab2db;
+ }
+  .headerMessage li:nth-child(2){
+  color: #f63446;
+  
+ }
+.ant-layout-sider{
+    font-size: 18px;
+ }
+ .order-message .ant-layout-content{
+   font-size: 14px;
+   text-align: left;
+ } 
+.order-message{
+  margin-bottom: 20px;
+}
+.order-footer{
+  height: 150px;
+  background: #fffde3;
+  font-size: 14px;
+  padding: 30px;
+  line-height: 60px;
+}
+.order-footer li i {
+  color: #00a0e9;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+.order-button .ant-btn.ant-btn-danger{
+  background: #f4a468;
+  color: #fff;
+}
+
+.order-button .ant-btn.ant-btn-danger:hover{
+  background: #f19149;
+  color: #fff;
+  border: 1px solid #f19149;
+}
+.ant-row.ant-form-item{
+  margin-bottom: 0;
+}
+.order-fill .ant-steps {
+    padding: 30px 200px;
+    box-sizing: border-box;
+}

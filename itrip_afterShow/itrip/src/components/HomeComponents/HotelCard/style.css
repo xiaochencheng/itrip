@@ -1,0 +1,56 @@
+.HotelCard {
+  border: 1px solid #ddd;
+  width: 264px;
+  height: 254px;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+}
+
+.HotelCard-img {
+  position: relative;
+}
+
+.HotelCard-img img {
+  width: 262px;
+  height: 172px;
+  overflow: hidden;
+  transition:  all 1s;
+}
+.HotelCard-img img:hover{
+  width: 276px;
+  height: 180px;
+}
+
+/*.HotelCard-img i,
+.HotelCard-img span {
+  position: absolute;
+  right: -1px;
+  top: -3px;
+}
+
+.HotelCard-img i {
+  color: red;
+  font-size: 42px;
+}
+
+.HotelCard-img span {
+  color: #fff;
+  font: 14px;
+}*/
+
+.HotelCard-desc b {
+  color: red;
+  font-size: 34px;
+}
+.HotelCard-desc p{
+  font-size: 18px;
+   color: #000;
+}
+
+.hotelPName{
+  width: 258px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

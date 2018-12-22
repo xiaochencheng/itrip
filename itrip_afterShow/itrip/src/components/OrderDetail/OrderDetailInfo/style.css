@@ -1,0 +1,52 @@
+.orderdetailinfo .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content {
+    background: #fff;
+}
+.detailTile {
+    border-top: 2px solid #1ab2db;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: '微软雅黑';
+    background-color: #f2fcff;
+    text-indent: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.orderDetailname {
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 20px;
+    color: #999;
+    font-size: 14px;
+}
+.detailPrice {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    margin: 20px 10px 10px 0;
+}
+.detailPrice strong {
+    font-size: 34px;
+    color: #ff4401;
+}
+.detailTip {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    text-align: right;
+}
+.detailButton {
+    text-align: center
+}
+.detailButton p {
+    margin-left: -35px;
+     font-size: 14px;
+}
+.detailButton Button {
+    margin-bottom: 10px;
+    font-size: 14px;
+}

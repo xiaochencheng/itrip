@@ -1,0 +1,25 @@
+.toatlcomwrapper {
+    text-align: left;
+}
+
+.toatlcomwrapper span {
+    font-size: 18px;
+    color: #333;
+    font-family: "微软雅黑";
+}
+
+.commentlike {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.toatlcomwrapper .ant-btn>.anticon {
+    line-height: 1;
+    text-align: center;
+    color: #00a0e9;
+    font-size: 22px;
+    padding: 0px 15px;
+}
+.toatlcomwrapper .ant-btn {
+  padding:10px 15px;
+}
